@@ -10,22 +10,23 @@
 
 In real-world food delivery platforms like Swiggy and Zomato, predicting delivery time accurately improves:
 
-* Customer satisfaction
-* Delivery efficiency
-* Route optimization
+- Customer satisfaction  
+- Delivery efficiency  
+- Route optimization  
 
-This project simulates that real-world use case using Machine Learning.
+This project simulates this real-world use case using Machine Learning.
 
 ---
 
 ## 🛠 Technologies Used
 
-* Python 🐍
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
+- Python 🐍  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
+- Flask  
 
 ---
 
@@ -33,18 +34,27 @@ This project simulates that real-world use case using Machine Learning.
 
 The dataset includes factors affecting food delivery time:
 
-* Distance between restaurant and customer
-* Weather conditions
-* Traffic conditions
-* Vehicle type
-* Order details
-* Delivery time (Target variable)
+- Distance between restaurant and customer  
+- Weather conditions  
+- Traffic conditions  
+- Vehicle type  
+- Order details  
+- Delivery time (Target variable)  
 
 ---
 
 ## 🔄 Workflow
 
-Data → Preprocessing → EDA → Model Training → Evaluation → Prediction
+Data → Preprocessing → EDA → Model Training → Evaluation → Prediction  
+
+Steps:
+1. Data Collection  
+2. Data Cleaning  
+3. Exploratory Data Analysis (EDA)  
+4. Feature Engineering  
+5. Model Training  
+6. Model Evaluation  
+7. Prediction  
 
 ---
 
@@ -52,30 +62,32 @@ Data → Preprocessing → EDA → Model Training → Evaluation → Prediction
 
 Key insights:
 
-* Delivery time increases with distance
-* Traffic condition has strong impact
-* Weather affects delivery delays
+- Delivery time increases with distance  
+- Traffic condition has strong impact  
+- Weather affects delivery delays  
+- Vehicle type also influences delivery speed  
 
 ---
 
 ## 🧠 Model Used
 
-* Linear Regression (Baseline Model)
-* Train-Test Split (80/20)
+- Linear Regression (Baseline Model)  
+- Train-Test Split (80/20)  
 
-### Future Improvements:
+### 🚀 Future Improvements:
 
-* Random Forest Regressor
-* XGBoost Model
-* Hyperparameter tuning
+- Random Forest Regressor  
+- XGBoost Model  
+- Hyperparameter tuning  
+- Deployment as web app  
 
 ---
 
 ## 📈 Evaluation Metrics
 
-* Mean Absolute Error (MAE)
-* Root Mean Squared Error (RMSE)
-* R² Score
+- Mean Absolute Error (MAE)  
+- Root Mean Squared Error (RMSE)  
+- R² Score  
 
 > Note: These values may vary depending on dataset split and training conditions.
 
@@ -84,85 +96,60 @@ Key insights:
 ## 📊 Sample Results
 
 | Metric   | Value |
-| -------- | ----- |
-| MAE      | 6.5   |
-| RMSE     | 8.13  |
-| R² Score | 0.78  |
+|----------|------|
+| MAE      | 6.5  |
+| RMSE     | 8.13 |
+| R² Score | 0.78 |
 
 ---
 
 ## 📁 Project Structure
 
-```
-Food-Delivery-Time-Prediction/
+
+Food-Delivery-Time-Prediction-ML/
 │
+├── app.py
 ├── food_delivery.py
+├── delivery time prediction.ipynb
 ├── food_dataset.csv
 ├── requirements.txt
 ├── README.md
-├── model.pkl
-├── screenshots/
-│   ├── eda.png
-│   ├── prediction.png
 │
-```
-## requirements.txt
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-flask
+├── images/
+│ ├── actual_vs_predicted.png
+│ ├── feature_importance_random_forest.png
+│ ├── delivery_time_distribution.png
+│ ├── avg_delivery_time_by_vehicle.png
+│ ├── avg_delivery_time_by_weather.png
+│ ├── avg_delivery_time_by_traffic.png
+│ ├── Food Delivery Time Prediction UI.png
+
 
 ---
 
 ## 🚀 How to Run This Project
 
 ### 1. Clone the repository
-
 ```bash
-git clone https://github.com/your-username/food-delivery-time-prediction.gitpandas
-
-```
-
-### 2. Move into folder
-
-```bash
-cd food-delivery-time-prediction
-```
-
-### 3. Install dependencies
-
-```bash
+git clone https://github.com/mithram0212-gif/Food-Delivery-Time-Prediction-ML.git
+2. Move into folder
+cd Food-Delivery-Time-Prediction-ML
+3. Install dependencies
 pip install -r requirements.txt
-```
-
-### 4. Run the project
-
-```bash
+4. Run the project
 python food_delivery.py
-```
 
----
+OR
 
-##
-
----
-
-## 🧑‍💻 Author
+python app.py
+👨‍💻 Author
 
 SANGAMITHRA M
 
-
----
-
-## 📌 Note
+📌 Note
 
 This project is built for academic and learning purposes. Results may vary depending on dataset and model training conditions.
 
----
-
-## ⭐ Show Support
+⭐ Show Support
 
 If you like this project, give it a ⭐ on GitHub!
-
