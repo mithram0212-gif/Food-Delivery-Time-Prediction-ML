@@ -105,7 +105,6 @@ Food_Delivery_Time_Prediction/
 
 │ ├── food_delivery.csv
 
-│ └── cleaned_food_delivery.csv
 
 │
 
@@ -138,8 +137,6 @@ Food_Delivery_Time_Prediction/
 ├── README.md
 
 ├── requirements.txt
-
-└── .gitignore
 
 ---
 
@@ -181,8 +178,6 @@ These metrics help evaluate the prediction accuracy of the Machine Learning mode
 
 👩‍💻 Author
 
-Mithra
-
-Machine Learning & Data Science Enthusiast
+Sangamithra m
 
 If you found this project useful, feel free to ⭐ the repository and share your feedback!
