@@ -97,46 +97,38 @@ The project includes the following charts:
 
 📁 Project Structure
 
-Food_Delivery_Time_Prediction/
+Food-Delivery-Time-Prediction-ML/
 
 │
 
-├── data/
+├── app.py
 
-│ ├── food_delivery.csv
+├── food delivery.py
 
+├── delivery time prediction.ipynb
 
-│
+├── food_dataset.csv
 
-├── notebooks/
-
-│ └── Food_Delivery_Time_Prediction.ipynb
+├── README.md
 
 │
 
 ├── images/
 
-│ ├── delivery_time_distribution.png
+│   ├── delivery_time_distribution.png
 
-│ ├── distance_vs_delivery_time.png
+│   ├── actual_vs_predicted.png
 
-│ ├── traffic_analysis.png
+│   ├── avg_delivery_time_by_vehicle.png
 
-│ ├── weather_analysis.png
+│   ├── avg_delivery_time_by_weather.png
 
-│ ├── vehicle_distribution.png
+│   ├── avg_delivery_time_by_traffic.png
 
-│ ├── ratings_analysis.png
+│   ├── feature_importance_random_forest.png
 
-│ ├── correlation_heatmap.png
+│   └── Food Delivery Time Prediction UI.png
 
-│ └── model_performance.png
-
-│
-
-├── README.md
-
-├── requirements.txt
 
 ---
 
