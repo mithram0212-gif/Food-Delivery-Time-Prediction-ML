@@ -106,6 +106,13 @@ Food-Delivery-Time-Prediction/
 │   ├── prediction.png
 │
 ```
+## requirements.txt
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+flask
 
 ---
 
@@ -114,7 +121,8 @@ Food-Delivery-Time-Prediction/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/food-delivery-time-prediction.git
+git clone https://github.com/your-username/food-delivery-time-prediction.gitpandas
+
 ```
 
 ### 2. Move into folder
