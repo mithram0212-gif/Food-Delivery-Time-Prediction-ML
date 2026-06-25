@@ -1,20 +1,21 @@
 # 🍔 Food Delivery Time Prediction (Machine Learning)
 
-🚀 A Machine Learning project to predict food delivery time based on distance, traffic, weather, and other real-world factors.
+🚀 This project predicts food delivery time using machine learning based on distance, traffic, weather, and other real-world factors.
 
 ⭐ Built using Python, Pandas, Scikit-learn, and Data Science techniques
 
 ---
 
-## 🎯 Why this Project?
+## 🎯 Project Objective
 
-In real-world food delivery platforms like Swiggy and Zomato, predicting delivery time accurately improves:
+The objective of this project is to build a machine learning model that can accurately predict food delivery time based on real-world influencing factors such as:
 
-- Customer satisfaction  
-- Delivery efficiency  
-- Route optimization  
+- Distance between restaurant and customer  
+- Traffic conditions  
+- Weather conditions  
+- Vehicle type  
 
-This project simulates this real-world use case using Machine Learning.
+This helps improve delivery efficiency and customer satisfaction in real-world food delivery systems.
 
 ---
 
@@ -32,7 +33,7 @@ This project simulates this real-world use case using Machine Learning.
 
 ## 📊 Dataset Description
 
-The dataset includes factors affecting food delivery time:
+The dataset contains features that influence delivery time:
 
 - Distance between restaurant and customer  
 - Weather conditions  
@@ -45,9 +46,6 @@ The dataset includes factors affecting food delivery time:
 
 ## 🔄 Workflow
 
-Data → Preprocessing → EDA → Model Training → Evaluation → Prediction  
-
-Steps:
 1. Data Collection  
 2. Data Cleaning  
 3. Exploratory Data Analysis (EDA)  
@@ -60,26 +58,26 @@ Steps:
 
 ## 📊 Exploratory Data Analysis (EDA)
 
-Key insights:
+Key insights from data:
 
-- Delivery time increases with distance  
-- Traffic condition has strong impact  
-- Weather affects delivery delays  
-- Vehicle type also influences delivery speed  
+- Delivery time increases as distance increases  
+- Traffic condition significantly impacts delivery time  
+- Weather conditions cause delays  
+- Vehicle type affects delivery speed  
 
 ---
 
-## 🧠 Model Used
+## 🧠 Machine Learning Model
 
 - Linear Regression (Baseline Model)  
 - Train-Test Split (80/20)  
 
-### 🚀 Future Improvements:
+### 🚀 Future Improvements
 
 - Random Forest Regressor  
 - XGBoost Model  
 - Hyperparameter tuning  
-- Deployment as web app  
+- Model deployment using Flask  
 
 ---
 
@@ -89,7 +87,7 @@ Key insights:
 - Root Mean Squared Error (RMSE)  
 - R² Score  
 
-> Note: These values may vary depending on dataset split and training conditions.
+> Note: Results may vary depending on dataset split and training conditions.
 
 ---
 
@@ -97,9 +95,9 @@ Key insights:
 
 | Metric   | Value |
 |----------|------|
-| MAE      | 6.5  |
-| RMSE     | 8.13 |
-| R² Score | 0.78 |
+| MAE      | 6.5   |
+| RMSE     | 8.13  |
+| R² Score | 0.78  |
 
 ---
 
@@ -132,7 +130,7 @@ Food-Delivery-Time-Prediction-ML/
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/mithram0212-gif/Food-Delivery-Time-Prediction-ML.git
-2. Move into folder
+2. Move into project folder
 cd Food-Delivery-Time-Prediction-ML
 3. Install dependencies
 pip install -r requirements.txt
