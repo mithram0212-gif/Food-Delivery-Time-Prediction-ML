@@ -178,6 +178,6 @@ These metrics help evaluate the prediction accuracy of the Machine Learning mode
 
 👩‍💻 Author
 
-Sangamithra m
+SANGAMITHRA M
 
 If you found this project useful, feel free to ⭐ the repository and share your feedback!
